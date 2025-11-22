@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: black;
+    }
+
+    .cont {
+      display: flex;
+      padding: 30px;
+      width: 1000px;
+      height: 600px;
+      background-color: white;
+      margin-top: 30px;
+      flex-direction: column;
+    }
+
+    .top-left {
+      width: 50%;
+    }
+
+    .g {
+      color: rgb(185, 180, 180);
+    }
+
+    .box {
+      display: flex;
+      width: 300px;
+      height: 200px;
+      background-color: hsl(300, 43%, 22%);
+      padding: 30px;
+      border-radius: 5px;
+      flex-direction: column;
+    }
+
+    .boxt {
+      display: flex;
+      width: 300px;
+      height: 200px;
+      background-color: hsl(300, 43%, 22%);
+      padding: 30px;
+      border-radius: 5px;
+      flex-direction: column;
+      margin-top: 10px;
+    }
+
+    .boxth {
+      display: flex;
+      width: 300px;
+      height: 200px;
+      background-color: hsl(300, 43%, 22%);
+      padding: 30px;
+      border-radius: 5px;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+
+    .top {
+      display: flex;
+      height: 50%;
+      flex-direction: row;
+    }
+
+    .bottom {
+      display: flex;
+      height: 50%;
+      flex-direction: row;
+      gap: 20px;
+    }
+
+    .ava {
+      display: flex;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .head {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .ht {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      margin-left: 20px;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
+    .rs {
+      margin-top: 10px;
+      color: white;
+    }
+
+    .name {
+      color: white;
+    }
+
+    .bn {
+      color: hsl(333, 80%, 67%);
+    }
+
+    .top-right {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .lio {
+      display: flex;
+      flex-direction: row;
+      background-color: hsl(300, 24%, 96%);
+      width: 450px;
+      height: 30px;
+      padding: 10px;
+      border-radius: 5px;
+      gap: 10px;
+    }
+
+    .liot {
+      display: flex;
+      flex-direction: row;
+      background-color: hsl(300, 24%, 96%);
+      width: 450px;
+      height: 30px;
+      padding: 10px;
+      border-radius: 5px;
+      gap: 10px;
+      margin-left: 30px;
+    }
+
+    .lioth {
+      display: flex;
+      flex-direction: row;
+      background-color: hsl(300, 24%, 96%);
+      width: 450px;
+      height: 30px;
+      padding: 10px;
+      border-radius: 5px;
+      gap: 10px;
+      margin-left: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="cont">
+    <div class="top">
+      <div class="top-left">
+        <h1>
+          10,000+ of our <br />users love our<br />
+          products.
+        </h1>
+        <h3 class="g">
+          We only provide great products combined with excellent customer
+          service. See what our satisfied customers are saying about our
+          services.
+        </h3>
+      </div>
+      <div class="top-right">
+        <div class="lio">
+          <div class="star">
+            <img src="images/icon-star.svg" alt="" />
+            <img src="images/icon-star.svg" alt="" />
+            <img src="images/icon-star.svg" alt="" />
+            <img src="images/icon-star.svg" alt="" />
+            <img src="images/icon-star.svg" alt="" />
+          </div>
+          <h3>Rated 5 Stars in Reviews</h3>
+        </div>
+        <div class="liot">
+          <div class="star">
+            <img src="images/icon-star.svg" alt="" />
+            <img src="images/icon-star.svg" alt="" />
+            <img src="images/icon-star.svg" alt="" />
+            <img src="images/icon-star.svg" alt="" />
+            <img src="images/icon-star.svg" alt="" />
+          </div>
+          <h3>Rated 5 Stars in Report Guru</h3>
+        </div>
+        <div class="lioth">
+          <div class="star">
+            <img src="images/icon-star.svg" alt="" />
+            <img src="images/icon-star.svg" alt="" />
+            <img src="images/icon-star.svg" alt="" />
+            <img src="images/icon-star.svg" alt="" />
+            <img src="images/icon-star.svg" alt="" />
+          </div>
+          <h3>Rated 5 Stars in BestTech</h3>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="box">
+        <div class="head">
+          <img class="ava" src="images/image-colton.jpg" alt="" />
+          <div class="ht">
+            <h3 class="name">Colton Smith</h3>
+            <h3 class="bn">Verified Buyer</h3>
+          </div>
+        </div>
+        <h3 class="rs">
+          "We needed the same printed design as the one we had ordered a week
+          prior. Not only did they find the original order, but we also
+          received it in time. Excellent!"
+        </h3>
+      </div>
+      <div class="boxt">
+        <div class="head">
+          <img class="ava" src="images/image-irene.jpg" alt="" />
+          <div class="ht">
+            <h3 class="name">Irene Roberts</h3>
+            <h3 class="bn">Verified Buyer</h3>
+          </div>
+        </div>
+        <h3 class="rs">
+          "Customer service is always excellent and very quick turn around.
+          Completely delighted with the simplicity of the purchase and the
+          speed of delivery."
+        </h3>
+      </div>
+      <div class="boxth">
+        <div class="head">
+          <img class="ava" src="images/image-anne.jpg" alt="" />
+          <div class="ht">
+            <h3 class="name">Anne Wallace</h3>
+            <h3 class="bn">Verified Buyer</h3>
+          </div>
+        </div>
+        <h3 class="rs">
+          "Put an order with this company and can only praise them for the
+          very high standard. Will definitely use them again and recommend
+          them to everyone!"
+        </h3>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
